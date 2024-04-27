@@ -5,8 +5,10 @@ document.querySelector('#menu').onclick = () => {
     navbar.classList.toggle('active');
 };
 
+const hamburger = document.querySelector('#menu');
 
-document.getElementsByTagName('body').onclick = () => {
-    navbar.classList.remove('active')
-
-}
+document.addEventListener('click', function(e){
+    if(!hamburger.contains(e.target) && !navbar.contains(e.target)) {
+        navbar.classList.remove('active');
+    }
+});
