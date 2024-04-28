@@ -219,7 +219,7 @@ body{
         position: absolute;
         background-color: #00000068;
         width: 15rem;
-        height: 83vh;
+        height: 70vh;
         display: block;
         backdrop-filter: blur(10px);
         transition: 800ms ease-out;
@@ -236,10 +236,10 @@ body{
         text-align: center;
         margin-top: 3rem;
         backdrop-filter: blur(10px);
-
-        background-color: rgba(255, 255, 255, 0);
+        border-radius: 50px;
+        background-color: rgba(0, 0, 0, 0);
         /* color: var(--bg); */
-        box-shadow: none;
+        box-shadow: 0 0 20px 2px #00000068;
     }
     .active{
         right: 0;
