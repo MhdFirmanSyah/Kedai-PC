@@ -1,11 +1,11 @@
 const navbar = document.querySelector('.navbar-nav')
 
 
-document.querySelector('#menu').onclick = () => {
+document.querySelector('#menu-humberger').onclick = () => {
     navbar.classList.toggle('active');
 };
 
-const hamburger = document.querySelector('#menu');
+const hamburger = document.querySelector('#menu-humberger');
 
 document.addEventListener('click', function(e){
     if(!hamburger.contains(e.target) && !navbar.contains(e.target)) {
