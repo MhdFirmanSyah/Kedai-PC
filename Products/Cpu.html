@@ -23,7 +23,7 @@
 <div class="product-card">
     <div class="product-icons">
         <a href="#" class="satu" title="ADD To Shopping Cart"><i data-feather="shopping-cart"></i></a>
-        <a href="#" title="View Details"><i data-feather="eye"></i></a>
+        <a href="#" class="item-detail-button" title="View Details"><i data-feather="eye"></i></a>
     </div>
     <div class="product-image">
         <img src="Products-img-cpu/AMD Ryzen 5 1400.png" alt="">
@@ -162,17 +162,40 @@
         </div>
 
 
-<audio id="wowplay-Audio" autoplay="true" preload="auto" src="blob:https://gen987fm.com/ae87ed75-ce2e-4bcb-abb8-2fc0ff008756"></audio>
 
 <!-- Item End -->
-    </div>
 
-
-    </section>
 
     <!-- Products Section End -->
+
+    <!-- Modal box item detail start -->
+    <div class="modal" id="item-detail-modal">
+        <div class="modal-container">
+            <a href="" class="close-icon"><i data-feather="x-circle"></i></a>
+            <div class="modal-content">
+                <img src="Products-img-cpu/AMD Ryzen 3 1200.png" alt="">
+                <div class="product-content">
+                    <h3>Product 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium quasi sequi aspernatur reiciendis quo eum excepturi deserunt magnam aperiam atque.</p>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star"></i>
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                    </div>
+                    <div class="product-price">IDR 5.000.000</div>
+                    <a href="#" class="add-to-cart"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal box item detail end -->
+
+
     <script>
         feather.replace({ width: '20', height: '20'});
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
